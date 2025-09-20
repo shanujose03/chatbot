@@ -21,7 +21,7 @@ page_bg_img = f"""
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("https://github.com/shanujose03/chatbot/blob/main/images/loy.jpeg");
+    background-image: url("https://raw.githubusercontent.com/shanujose03/chatbot/main/images/loy.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ page_bg_img = f"""
     left: 10px;
     width: 120px;
     height: 120px;
-    background-image: url("https://github.com/shanujose03/chatbot/blob/main/images/log.png");
+    background-image: url("https://raw.githubusercontent.com/shanujose03/chatbot/main/images/log.png");
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1000;
@@ -109,3 +109,4 @@ if query:
     answer = generate_answer(query)
     st.subheader("🤖 Answer:")
     st.markdown(f"<div class='chat-bubble'>{answer}</div>", unsafe_allow_html=True)
+
